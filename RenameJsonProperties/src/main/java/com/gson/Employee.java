@@ -2,6 +2,11 @@ package com.gson;
 
 import com.google.gson.annotations.SerializedName;
 
+
+/**
+ * @author Rishi
+ *demo to rename properties name in json
+ */
 public class Employee {
 	
 	@SerializedName("emp_name")
