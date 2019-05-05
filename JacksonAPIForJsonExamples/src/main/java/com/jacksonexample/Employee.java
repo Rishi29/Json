@@ -1,7 +1,10 @@
 package com.jacksonexample;
 
 import org.codehaus.jackson.annotate.JsonProperty;
+import org.codehaus.jackson.annotate.JsonPropertyOrder;
 
+
+@JsonPropertyOrder({"emp_id","name","designation","department","salary"})
 public class Employee {
 	
 	@JsonProperty("emp_id")
