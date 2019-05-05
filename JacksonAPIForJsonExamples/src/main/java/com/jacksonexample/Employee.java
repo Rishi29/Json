@@ -1,7 +1,10 @@
 package com.jacksonexample;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 public class Employee {
 	
+	@JsonProperty("emp_id")
 	private int id;
 	private String name; 
 	private String designation;
